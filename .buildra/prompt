@@ -1,7 +1,12 @@
-CRITICAL Remix WebContainer Rules:
-- package.json MUST have "type": "module"
-- vite.config.ts uses ESM imports with @remix-run/dev vitePlugin
-- ALWAYS use `npm run dev` to start — never use bare `remix dev` or `vite`
-- Routes go in app/routes/ directory (file-based routing)
-- Root layout is app/root.tsx
-- Use loader/action pattern for data fetching
+This is a Remix + TypeScript project with Tailwind CSS.
+
+STYLING RULES:
+- Use Tailwind CSS utility classes for ALL styling
+- Do NOT create CSS modules — use Tailwind classes inline in JSX
+- Follow mobile-first responsive design (sm:, md:, lg: breakpoints)
+- Tailwind CSS is imported in app/root.tsx
+
+IMPORTANT:
+- Always run `npm install && npm run dev` to start
+- Use TypeScript for all new files (.tsx, .ts)
+- Never use `remix dev` directly — always use `npm run dev`
