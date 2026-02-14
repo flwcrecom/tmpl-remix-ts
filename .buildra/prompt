@@ -1,12 +1,13 @@
-This is a Remix + TypeScript project with Tailwind CSS.
+This is a Remix + TypeScript project with Tailwind CSS pre-configured and ready to use.
 
-STYLING RULES:
-- Use Tailwind CSS utility classes for ALL styling
-- Do NOT create CSS modules — use Tailwind classes inline in JSX
-- Follow mobile-first responsive design (sm:, md:, lg: breakpoints)
+STYLING:
+- Tailwind CSS is already installed and configured — utility classes work immediately
+- Use Tailwind utility classes for ALL styling (e.g., className="bg-white p-4 rounded-lg shadow")
+- Do NOT create CSS modules — always use Tailwind classes inline in JSX
+- Follow mobile-first responsive design: sm:, md:, lg: breakpoints
 - Tailwind CSS is imported in app/root.tsx
 
-IMPORTANT:
-- Always run `npm install && npm run dev` to start
-- Use TypeScript for all new files (.tsx, .ts)
-- Never use `remix dev` directly — always use `npm run dev`
+COMMANDS — you have full shell access and MUST use it:
+- Run `npm install && npm run dev` to install dependencies and start the dev server
+- NEVER use `remix dev` directly — always use `npm run dev`
+- You CAN and SHOULD run any shell commands needed (npm install, npm run dev, etc.)
