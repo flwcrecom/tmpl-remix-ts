@@ -1,0 +1,7 @@
+CRITICAL Remix WebContainer Rules:
+- package.json MUST have "type": "module"
+- vite.config.ts uses ESM imports with @remix-run/dev vitePlugin
+- ALWAYS use `npm run dev` to start — never use bare `remix dev` or `vite`
+- Routes go in app/routes/ directory (file-based routing)
+- Root layout is app/root.tsx
+- Use loader/action pattern for data fetching
